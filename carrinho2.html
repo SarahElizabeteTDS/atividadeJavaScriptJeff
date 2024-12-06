@@ -68,13 +68,13 @@
         
         for (let i = 0; i < elementosNoCarrinho; i++) 
         {
-            criarItemCarrinho();
+            criarItemCarrinho(carrinho[i]);
         }
 
-        function criarItemCarrinho()
+        function criarItemCarrinho(item)
         {
             let itemCarrinho = document.createElement("div");
-            item.classList.add = "item-carrinho";
+            itemCarrinho.classList.add = "item-carrinho";
             
             let item = document.createElement("div");
             item.classList.add = "item";
