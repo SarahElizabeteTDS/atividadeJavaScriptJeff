@@ -86,10 +86,10 @@
             itemInfo.classList.add = "item-info";
             
             let nomeProduto = document.createElement("h2");
-            nomeProduto.textContent = "teste";
+            nomeProduto.textContent = item.nomeProduto;
             
             let precoProduto = document.createElement("p");
-            precoProduto.classList.add = "preco";
+            precoProduto.classList.add = item.precoProduto;
             precoProduto.textContent = "10.00";
             
             itemInfo.appendChild(nomeProduto);
